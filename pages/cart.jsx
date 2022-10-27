@@ -8,7 +8,7 @@ const Cart = () => {
       <div className={styles.left}>
         <table className={styles.table}>
           <thead>
-            <tr className={styles.tr}>
+            <tr className={styles.trTitle}>
               <th>Product</th>
               <th>Name</th>
               <th>Extras</th>
@@ -18,7 +18,7 @@ const Cart = () => {
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr className={styles.tr}>
               <td>
                 <div className={styles.imgContainer}>
                   <Image src="/img/pizza.png" layout="fill" objectFit="cover" alt="" />
